@@ -1,6 +1,10 @@
 #!/bin/sh
 
+# 兼容 Alpine ash
 set -e
+
+echo "Running on Alpine Linux..."
+
 
 XRAY_VERSION="1.8.24"
 XRAY_URL="https://github.com/XTLS/Xray-core/releases/download/v${XRAY_VERSION}/Xray-linux-64.zip"
