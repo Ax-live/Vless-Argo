@@ -1,10 +1,12 @@
 #!/bin/sh
-
-# 兼容 Alpine ash
+echo "Starting Xray VMess WS Installer..."
 set -e
 
-echo "Running on Alpine Linux..."
-
+# 自动修复 Windows 换行
+if file "$0" | grep -qi CRLF; then
+  echo "Fixing CRLF format..."
+  sed -i 's/\r$//' "$0"
+fi
 
 XRAY_VERSION="1.8.24"
 XRAY_URL="https://github.com/XTLS/Xray-core/releases/download/v${XRAY_VERSION}/Xray-linux-64.zip"
