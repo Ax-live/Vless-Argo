@@ -2,5 +2,5 @@
 ### 一键脚本自定义
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/Ax-live/Vless-Argo/refs/heads/main/argo.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/argo.sh)
 ```
