@@ -1,1 +1,6 @@
-折腾catcloud时发现空间太小，市面一键脚本搞不定，尝试写了这个脚本，希望能搞定。
+一键安装vless-argo隧道，基于singbox。全自动解决问题，可以临时，可以固定。交互式完成。
+### 一键脚本自定义
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/argo.sh)
+```
