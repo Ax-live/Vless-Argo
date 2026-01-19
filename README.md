@@ -2,10 +2,10 @@
 ### 一键脚本自定义
 
 ```
-wget -N https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/vless.sh && chmod +x vless.sh && ./vless.sh
+wget -N https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/vless.sh && chmod +x argo.sh && ./argo.sh
 ```
 
 或者：
 ```
-curl -fL https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/vless.sh | bash
+curl -fL https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/argo.sh | bash
 ```
