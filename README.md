@@ -2,7 +2,7 @@
 ### 一键脚本自定义
 
 ```
-wget -N https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/vless.sh && chmod +x argo.sh && ./argo.sh
+wget -N https://raw.githubusercontent.com/Ax-live/Vless-Argo/main/argo.sh && chmod +x argo.sh && ./argo.sh
 ```
 
 或者：
